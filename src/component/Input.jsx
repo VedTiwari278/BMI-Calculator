@@ -62,6 +62,7 @@ function Input() {
         value={weight}
         onChange={handleWeightChange}
         required
+        className="form-control INPUT"
       />
       <br />
       <br />
@@ -71,12 +72,17 @@ function Input() {
         value={height}
         onChange={handleHeightChange}
         required
+        className="form-control INPUT"
       />
       <br />
       <br />
       <Button HandleOnclick={handleOnClick}></Button>
       <br />
-      {error && <div style={{ color: "black",font:"40px", marginTop: "10px" }}>{error}</div>}
+      {error && (
+        <div style={{ color: "black", font: "40px", marginTop: "10px" }}>
+          {error}
+        </div>
+      )}
       <hr />
       <Result result={bmiResult} BMI={BMI}></Result>
     </>

@@ -10,6 +10,11 @@ button {
   transition: border-color 0.25s;
 }
 
+.INPUT{
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
 
 .Container {
   place-self: center;
@@ -22,6 +27,8 @@ button {
   padding-left:5px;
   background-color: #A8D5E3;
   padding-bottom: 30px;
+  padding-right: 10px;
+  padding-left: 12px;
 }
 
 .Name {
