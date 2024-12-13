@@ -1,0 +1,51 @@
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+
+.Container {
+  place-self: center;
+  border: 5px solid rgb(12, 1, 1);
+  max-width: 500px;
+  min-width: 400px;
+  justify-content: center;
+  border-radius:0.5rem;
+  align-items: center;
+  padding: 50px;
+  background-color: #A8D5E3;
+}
+
+.Name {
+  font-size: 30px;
+  font-family: Arial;
+}
+
+
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+.result {
+  width: 100%;
+}
+
+.first {
+  padding: 20px;
+}
+* {
+  outline: none;
+}
+.Image{
+  width: 400px;
+  border-radius-top: 2rem;
+  margin-right: 5px;
+}
